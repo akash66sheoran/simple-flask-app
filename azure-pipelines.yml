@@ -4,14 +4,14 @@ trigger:
 pool: linuxAgentPool
 
 stages:
-  - stage: "stage A"
+  - stage: "stage_A"
     displayName: This is stage A
     jobs:
       - job: A
         steps:
           - script: echo "hello, this is stage A"
 
-  - stage: "stage B"
+  - stage: "stage_B"
     displayName: This is stage B
     jobs:
       - job: B
