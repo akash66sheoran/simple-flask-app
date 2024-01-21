@@ -5,14 +5,14 @@ pool: linuxAgentPool
 
 stages:
   - stage: "stage_A"
-    displayName: This is stage A
+    displayName: "This is stage A"
     jobs:
       - job: A
         steps:
           - script: echo "hello, this is stage A"
 
   - stage: "stage_B"
-    displayName: This is stage B
+    displayName: "This is stage B"
     jobs:
       - job: B
         steps:
