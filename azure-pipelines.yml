@@ -8,11 +8,9 @@ stages:
     displayName: "This is stage A"
     jobs:
       - job: job1
-        displayName: "stage A, job1"
         steps:
           - script: echo "this is stage A, job1"
       - job: job2
-        displayName: "stage A, job1"
         steps:
           - script: echo "hello, this is stage A, job2"
 
@@ -20,10 +18,8 @@ stages:
     displayName: "This is stage B"
     jobs:
       - job: job1
-        displayName: "stage B, job1"
         steps:
           - script: echo "hello, this is stage B, job1"
       - job: job2
-        displayName: "stage B, job2"
         steps:
           - script: echo "hello, this is stage B, job2"
